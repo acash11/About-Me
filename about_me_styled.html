@@ -13,20 +13,16 @@
             }
 
             div {
-
                 margin: 0 10vw 0 10vw;
                 background-color: rgba(211, 255, 240, 0.26);
                 display: flex;
                 align-items: center;
                 justify-content: center;
-
                 border-radius: 1vw;
-                git config --global user.email "you@example.com"
-                git config --global user.name "Your Name
             }
 
             p {
-                width: 70%; 
+                width: 70%;
             }
 
             span {
@@ -34,80 +30,84 @@
                 max-width:700px;
                 padding-right: 20px;
                 padding-left: 20px;
-
                 border-radius: 1vw;
-                box-shadow: 5px 10px 5px 0px #000;
-                
+            }
+
+            .shadow{
+                box-shadow: 3px 5px 5px 0px #000;
             }
 
             hr {
                 border:1px black dotted;
             }
 
-            .right_image {
+            .image {
                 width: 35vw;
                 height: auto;
-                margin-left:5%;
                 margin-top:1%;
                 margin-bottom:1%;
                 max-width:450px;
                 position: relative;
             }
 
-
+            a{
+                text-decoration: none;
+                margin-left: 10px;
+                font-size:large;
+            }
 
         </style>
 
 
     </header>
     <head>
-        <h1><br>About Me<hr>
+        <h1>
+            <br>
+            About Me
+            <hr>
+
             <div style="background-color: rgba(0, 0, 0, 0);">
                 <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" style="width: 25px; height:auto;">
-                <a href="https://github.com/acash11" style="text-decoration: none; margin-left: 10px; font-size:large;">GitHub</a>
+                <a href="https://github.com/acash11">GitHub</a>
             </div>
+
             <br>
+
         </h1>
     </head>
     <body>
 
         <div style="background-color: rgba(0, 0, 0, 0);">
 
-            <span style="background-color: rgba(211, 255, 240, 0.26);">
+            <span class="shadow" style="background-color: rgba(211, 255, 240, 0.26);">
             
                 <p style="width:100%;">
-
                     My name is Andrew Cash, and I go to Kent State University, where I'm currently going for my Bachelor's in Computer Science.
-
-
                 </p>
-                
 
             </span>
-            <img src="meOutside.png" alt="A picture of me" class="right_image">
+            <img src="meOutside.png" alt="A picture of me" class="image" style="margin-left:5%;">
+
         </div>
 
-        <br>
+        <br><br>
 
-        <br>
+        <div class="shadow">
 
-        <div>
             <p>
                 I'm currently very open to working in the field of technology, especially software development. My main goal currently is to find job experience and to pass all my classes with flying colors.
                 <br>
                 It will be challenging, but that just makes it all the more achieving.
                 <br>
                 <br>
-
                 My hobbies include recreational soccer, trying new foods, and watching too much YouTube. I'm afraid of boredom, so I'm always trying to find something interesting.
-
             </p>
                 
         </div> 
 
         <br>
 
-        <div style="padding-right: 5vw;">
+        <div class="shadow" style="padding-right: 5vw;">
                  
 
             <ul style="list-style-position: inside; padding-left:4vw;">
@@ -124,16 +124,21 @@
         </div> 
 
         <br>
-
-        <div style="border-radius: 1vw 1vw 0 0;">
+        
+        <div class="shadow" style="max-width:15%; min-width: 70px; margin: auto;">
             <br>
             Thank You
-            <br>
-        </div>
-        <div style="border-radius: 0 0 1vw 1vw;">
-            <img src="IMG_2296.jpg" alt="A picture of me" class="right_image" style="margin-left:0;">
+            <br><br>
         </div>
 
         <br>
+
+        <div class="shadow">
+            <img src="IMG_2296.jpg" alt="A picture of me" class="image" style="margin: 20px 0 20px 0;">
+        </div>
+
+        <br>
+
     </body>
+
 </html>
